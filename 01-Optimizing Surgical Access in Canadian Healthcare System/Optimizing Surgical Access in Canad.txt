@@ -1,0 +1,25 @@
+Optimizing Surgical Access in Canadian Healthcare System
+
+The Canadian Institute for Health Information (CIHI) has released its comprehensive 2025 dataset regarding wait times for priority procedures across Canada, spanning from 2008 to 2024. As the newly appointed Head of the Business Intelligence Task Force for a national health advisory board, you have been handed this raw data.
+
+Wait times are a critical metric for “Equity of Access.” Long waits for procedures like hip replacements or cancer surgeries not only decrease the quality of life for patients but can lead to worse clinical outcomes. Your goal is to move beyond simple spreadsheets and create a dynamic BI solution that reveals where the system is succeeding and where it is under pressure.
+
+Cataract Surgery: Within 16 weeks for high-risk patients.
+Hip Replacement: Within 26 weeks.
+Knee Replacement: Within 26 weeks.
+Radiotherapy (Cancer Care): Within 4 weeks (28 days) of a patient being ready to treat.
+
+You are required to:
+
+Identify which provinces have consistently met the national benchmark for Cataract Surgery over the last five years. Which province has seen the most significant decline in meeting this benchmark since 2018?
+
+Compare the 50th percentile and 90th percentile for MRI Scans in 2024. In which jurisdiction is the gap between the median and the 90th percentile the widest? What does this suggest about their scheduling efficiency or backlog?
+
+Create a visualization that isolates the years 2019, 2020, and 2021. Quantify the percentage change in Volume for Hip Replacements versus the percentage change in Wait Times during this period. Did the decrease in volume lead to shorter or longer wait times?
+
+Analyze Radiation Therapy wait times across Canada. Unlike other surgeries, this often has a very high “% Meeting Benchmark.” Use the data to explain if this high performance is consistent across all provinces or if there are “outlier” regions.
+
+The dataset uses different time labels (e.g., “2024,” “2022FY,” “2020Q3Q4”). Write a logic/script to group these into a standardized “Reporting Period” attribute so they can be viewed on a continuous timeline.
+Is there a statistical correlation between high Volume and high 90th Percentile wait times? Create a visual to determine if provinces with more cases are inherently slower, or if some high-volume provinces are more efficient than low-volume ones.
+
+If you had a federal grant to reduce wait times for one specific procedure in one specific province, based purely on the 2024 data, where would you “invest” that money to have the greatest impact on patient access? Justify your answer using at least three different metrics.
